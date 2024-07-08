@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo {
+            float: left;
+            width: 100px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .navigation {
+            background: #333;
+            color: #fff;
+            overflow: hidden;
+        }
+        .navigation a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+            float: left;
+        }
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .content, .sidebar, .ad-1, .ad-2, .ad-3, .footer {
+            padding: 20px;
+        }
+        .content {
+            flex: 2;
+            background: #e2e2e2;
+        }
+        .sidebar {
+            flex: 1;
+            background: #ccc;
+        }
+        .ad-1, .ad-2, .ad-3, .footer {
+            width: 100%;
+            background: #999;
+            margin: 10px 0;
+        }
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1>Blog</h1>
+    </div>
+
+    <div class="navigation">
+        <a href="/">Home</a>
+        <a href="/about.html">About Us</a>
+        <a href="/contact.html">Contact Us</a>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/tos.html">Terms of Use</a>
+        <a href="/gdpr.html">GDPR</a>
+    </div>
+
+    <div class="main">
+        <div class="content">
+            <h2>Blog Content</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dictum erat. Aenean vel libero ac velit gravida suscipit. Nulla facilisi.</p>
+            <div class="ad-1">
+                <p>336 x 280 Large Rectangle Ad</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec dictum erat. Aenean vel libero ac velit gravida suscipit. Nulla facilisi.</p>
+            <div class="ad-3">
+                <p>728 x 90 Leaderboard Ad</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="ad-2">
+                <p>300 x 250 Medium Rectangle Ad</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Blog Name. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
